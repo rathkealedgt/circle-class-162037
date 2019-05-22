@@ -1,17 +1,20 @@
 ﻿Public Class Circle
     Private Radius As Integer
     Private ReadOnly P As Point
+
     Const PI As Double = 3.1415926
 
     Public Sub New()
         Me.Radius = 1
         Me.P = New Point(0, 0)
 
+
     End Sub
 
     Public Sub New(r As Integer)
         Me.Radius = r
         Me.P = New Point(0, 0)
+
     End Sub
 
     Public Sub New(r As Integer, p As Point)
@@ -47,6 +50,7 @@
 
     Public Function GetPoint() As Point
         Return Me.P
+
 
     End Function
 

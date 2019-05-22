@@ -42,6 +42,7 @@
     Public Function Distance() As Double
         Dim p As New Point(0, 0)
         Return Distance(p)
+
     End Function
 
     Public Function Distance(p As Point) As Double
